@@ -1,0 +1,3 @@
+2021-04-10 22:26:36,574  INFO [main] LoginPageTest:28 - -------------VerifyPageTitle Test Case-----
+2021-04-10 22:26:48,191  INFO [main] LoginPageTest:34 - -------------VerifyLogin Test Case-----
+2021-04-10 22:27:05,348  INFO [main] LoginPageTest:39 - -------------VerifyForgotLink Test Case-----
