@@ -97,9 +97,5 @@ public class DashboardPageTest extends TestBase{
 		Boolean isPendingLeaveDisplayed = dashboardPage.verifyPendingLeavesDisplayed();
 		Assert.assertTrue(isPendingLeaveDisplayed, "Pending Leave Request did not Displayed");
 	}
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
-	}
 	
 }

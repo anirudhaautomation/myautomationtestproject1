@@ -1,49 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-10T17:09:00Z" name="Default suite" finished-at="2021-04-10T17:09:55Z" duration-ms="54649">
+  <suite started-at="2021-04-12T10:13:08Z" name="Orange HRM Application Test Automation Test Suite" finished-at="2021-04-12T10:16:22Z" duration-ms="194436">
     <groups>
     </groups>
-    <test started-at="2021-04-10T17:09:00Z" name="Default test" finished-at="2021-04-10T17:09:55Z" duration-ms="54649">
+    <test started-at="2021-04-12T10:13:08Z" name="Orange HRM Application Test" finished-at="2021-04-12T10:16:22Z" duration-ms="194436">
       <class name="com.orange.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:00Z" name="setup" finished-at="2021-04-10T22:39:22Z" duration-ms="21686" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:43:08Z" name="setup" finished-at="2021-04-12T15:43:15Z" duration-ms="7445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:1, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:22Z" name="verifyPageTitle" finished-at="2021-04-10T22:39:22Z" duration-ms="19" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:1, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:43:15Z" name="verifyPageTitle" finished-at="2021-04-12T15:43:15Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:22Z" name="tearDown" finished-at="2021-04-10T22:39:22Z" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:43:15Z" name="tearDown" finished-at="2021-04-12T15:43:15Z" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:22Z" name="setup" finished-at="2021-04-10T22:39:34Z" duration-ms="11593" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:43:30Z" name="setup" finished-at="2021-04-12T15:43:37Z" duration-ms="7604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLogin()[pri:2, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:34Z" name="validateLogin" finished-at="2021-04-10T22:39:44Z" duration-ms="9872" status="PASS">
+        <test-method signature="validateLogin()[pri:2, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:43:37Z" name="validateLogin" finished-at="2021-04-12T15:43:44Z" duration-ms="6646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:44Z" name="tearDown" finished-at="2021-04-10T22:39:44Z" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:43:44Z" name="tearDown" finished-at="2021-04-12T15:43:44Z" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:44Z" name="setup" finished-at="2021-04-10T22:39:54Z" duration-ms="9851" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:44:00Z" name="setup" finished-at="2021-04-12T15:44:08Z" duration-ms="8338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyForgotLink()[pri:3, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:54Z" name="verifyForgotLink" finished-at="2021-04-10T22:39:55Z" duration-ms="1149" status="PASS">
+        <test-method signature="verifyForgotLink()[pri:3, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:44:08Z" name="verifyForgotLink" finished-at="2021-04-12T15:44:09Z" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@7bab3f1a]" started-at="2021-04-10T22:39:55Z" name="tearDown" finished-at="2021-04-10T22:39:55Z" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.LoginPageTest@36c88a32]" started-at="2021-04-12T15:44:09Z" name="tearDown" finished-at="2021-04-12T15:44:10Z" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orange.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.orange.qa.testcases.DashboardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:43:15Z" name="setup" finished-at="2021-04-12T15:43:30Z" duration-ms="14183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardPageTitle()[pri:1, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:43:30Z" name="verifyDashboardPageTitle" finished-at="2021-04-12T15:43:30Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:43:30Z" name="tearDown" finished-at="2021-04-12T15:43:30Z" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:43:44Z" name="setup" finished-at="2021-04-12T15:43:58Z" duration-ms="13644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAssignLeavePageLoad()[pri:2, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:43:58Z" name="verifyAssignLeavePageLoad" finished-at="2021-04-12T15:44:00Z" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAssignLeavePageLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:00Z" name="tearDown" finished-at="2021-04-12T15:44:00Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:10Z" name="setup" finished-at="2021-04-12T15:44:24Z" duration-ms="14244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLeaveList()[pri:3, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:24Z" name="verifyLeaveList" finished-at="2021-04-12T15:44:27Z" duration-ms="2959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLeaveList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:27Z" name="tearDown" finished-at="2021-04-12T15:44:27Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:27Z" name="setup" finished-at="2021-04-12T15:44:44Z" duration-ms="16606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTimeSheets()[pri:4, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:44Z" name="verifyTimeSheets" finished-at="2021-04-12T15:44:45Z" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTimeSheets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:45Z" name="tearDown" finished-at="2021-04-12T15:44:45Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:44:45Z" name="setup" finished-at="2021-04-12T15:45:02Z" duration-ms="16701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyApplyLeave()[pri:5, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:02Z" name="verifyApplyLeave" finished-at="2021-04-12T15:45:04Z" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyLeave -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:04Z" name="tearDown" finished-at="2021-04-12T15:45:04Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:04Z" name="setup" finished-at="2021-04-12T15:45:19Z" duration-ms="14450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMyLeave()[pri:6, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:19Z" name="verifyMyLeave" finished-at="2021-04-12T15:45:21Z" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyLeave -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:21Z" name="tearDown" finished-at="2021-04-12T15:45:21Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:21Z" name="setup" finished-at="2021-04-12T15:45:35Z" duration-ms="14394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyMyTimeSheetLoads()[pri:7, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:35Z" name="verifyMyTimeSheetLoads" finished-at="2021-04-12T15:45:38Z" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyTimeSheetLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:38Z" name="tearDown" finished-at="2021-04-12T15:45:38Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:38Z" name="setup" finished-at="2021-04-12T15:45:52Z" duration-ms="14055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmployeeDistributionDisplayed()[pri:8, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:52Z" name="verifyEmployeeDistributionDisplayed" finished-at="2021-04-12T15:45:52Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeDistributionDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:52Z" name="tearDown" finished-at="2021-04-12T15:45:52Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:45:52Z" name="setup" finished-at="2021-04-12T15:46:07Z" duration-ms="14948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLegendLoad()[pri:9, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:46:07Z" name="verifyLegendLoad" finished-at="2021-04-12T15:46:07Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLegendLoad -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:46:07Z" name="tearDown" finished-at="2021-04-12T15:46:07Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:46:07Z" name="setup" finished-at="2021-04-12T15:46:22Z" duration-ms="14839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPendingLeaveDisplayed()[pri:10, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:46:22Z" name="verifyPendingLeaveDisplayed" finished-at="2021-04-12T15:46:22Z" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingLeaveDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.qa.testcases.DashboardPageTest@7880cdf3]" started-at="2021-04-12T15:46:22Z" name="tearDown" finished-at="2021-04-12T15:46:22Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.qa.testcases.DashboardPageTest -->
+    </test> <!-- Orange HRM Application Test -->
+  </suite> <!-- Orange HRM Application Test Automation Test Suite -->
 </testng-results>

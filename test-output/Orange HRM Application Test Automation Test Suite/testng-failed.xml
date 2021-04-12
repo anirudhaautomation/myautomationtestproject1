@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orange HRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.orange.qa.extentreportlistener.ExtentReportListener"/>
+  </listeners>
+  <test name="Orange HRM Application Test(failed)">
+    <classes>
+      <class name="com.orange.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="verifyPageTitle"/>
+          <include name="setup"/>
+          <include name="verifyForgotLink"/>
+          <include name="tearDown"/>
+          <include name="validateLogin"/>
+        </methods>
+      </class> <!-- com.orange.qa.testcases.LoginPageTest -->
+      <class name="com.orange.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyDashboardPageTitle"/>
+          <include name="verifyAssignLeavePageLoad"/>
+          <include name="verifyMyLeave"/>
+          <include name="verifyApplyLeave"/>
+          <include name="verifyPendingLeaveDisplayed"/>
+          <include name="verifyTimeSheets"/>
+          <include name="verifyEmployeeDistributionDisplayed"/>
+          <include name="verifyMyTimeSheetLoads"/>
+          <include name="verifyLeaveList"/>
+          <include name="tearDown"/>
+          <include name="verifyLegendLoad"/>
+        </methods>
+      </class> <!-- com.orange.qa.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- Orange HRM Application Test(failed) -->
+</suite> <!-- Failed suite [Orange HRM Application Test Automation Test Suite] -->

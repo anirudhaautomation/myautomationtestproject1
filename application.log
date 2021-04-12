@@ -1,3 +1,13 @@
-2021-04-10 22:26:36,574  INFO [main] LoginPageTest:28 - -------------VerifyPageTitle Test Case-----
-2021-04-10 22:26:48,191  INFO [main] LoginPageTest:34 - -------------VerifyLogin Test Case-----
-2021-04-10 22:27:05,348  INFO [main] LoginPageTest:39 - -------------VerifyForgotLink Test Case-----
+2021-04-12 15:43:15,840  INFO [main] LoginPageTest:28 - -------------VerifyPageTitle Test Case-----
+2021-04-12 15:43:37,943  INFO [main] LoginPageTest:34 - -------------VerifyLogin Test Case-----
+2021-04-12 15:44:08,506  INFO [main] LoginPageTest:39 - -------------VerifyForgotLink Test Case-----
+2021-04-12 15:46:23,106 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-04-12 15:46:23,109 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-04-12 15:46:23,112 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-04-12 15:46:23,114 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-04-12 15:46:23,115 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/anirudha/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2021-04-12 15:46:23,444 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-04-12 15:46:23,445 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-04-12 15:46:23,446 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-04-12 15:46:23,446 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-04-12 15:46:23,447 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/anirudha/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

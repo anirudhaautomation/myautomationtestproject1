@@ -12,8 +12,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.orange.qa.util.TestUtil;
 
-
-
 public class TestBase {
 	public static WebDriver driver; 
 	public static Properties prop;
@@ -33,7 +31,7 @@ public class TestBase {
 	public static void initilazation() {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/anirudha/Downloads/chromedriver_linux64/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Drivers/chromedriver");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equals("FF")){
