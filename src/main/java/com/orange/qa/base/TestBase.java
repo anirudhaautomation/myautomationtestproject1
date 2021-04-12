@@ -31,11 +31,11 @@ public class TestBase {
 	public static void initilazation() {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Driver/chromedriver");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "/home/anirudha/Downloads/geckodriver");	
+			System.setProperty("webdriver.gecko.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Driver/geckodriver");	
 			driver = new FirefoxDriver(); 
 		}
 		driver.manage().window().maximize();
