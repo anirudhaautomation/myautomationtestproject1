@@ -28,8 +28,7 @@ public class LoginPageTest extends TestBase{
 	public void verifyPageTitle() {
 		log.info("-------------VerifyPageTitle Test Case-----");
 		String loginPageTitle = loginPage.validateTitle();
-		Assert.assertEquals(loginPageTitle, "OrangeHRM");
-		
+		Assert.assertEquals(loginPageTitle, "OrangeHRM");	
 	}
 	@Test(priority = 2)
 	public void validateLogin() {
@@ -45,7 +44,7 @@ public class LoginPageTest extends TestBase{
 	@AfterMethod
 	public void tearDown(ITestResult result) {
 		if(ITestResult.FAILURE == result.getStatus()) {
-			TestUtil.captureScreenshotTest();;
+			TestUtil.captureScreenshotTest();
 		}
 		driver.quit();
 	}

@@ -1,7 +1,6 @@
 package com.orange.qa.testcases;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -39,7 +38,6 @@ public class DashboardPageTest extends TestBase{
 		myLeavePage = new MyLeavePage();
 		myTimeSheet = new MyTimeSheet();
 		dashboardPage = loginPage.validateLogin(prop.getProperty("username"), prop.getProperty("password"));
-		
 	}
 	@Test(priority = 1)
 	public void verifyDashboardPageTitle() {
@@ -97,5 +95,4 @@ public class DashboardPageTest extends TestBase{
 		Boolean isPendingLeaveDisplayed = dashboardPage.verifyPendingLeavesDisplayed();
 		Assert.assertTrue(isPendingLeaveDisplayed, "Pending Leave Request did not Displayed");
 	}
-	
 }
