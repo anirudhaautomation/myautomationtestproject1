@@ -8,6 +8,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.orange.qa.util.TestUtil;
@@ -33,6 +34,13 @@ public class TestBase {
 		if(browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Driver/chromedriver");
 			driver = new ChromeDriver();
+		}
+		else if(browserName.equals("headlesschrome")) {
+			System.setProperty("webdriver.chrome.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Driver/chromedriver");
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("windows-size=1400,800");
+			options.addArguments("headless");
+			driver = new ChromeDriver(options);
 		}
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", "/home/anirudha/Documents/automation/OrangeHRMTest/Driver/geckodriver");	
